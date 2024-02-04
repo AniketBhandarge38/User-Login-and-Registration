@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.form input {
+  height: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form button {
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
