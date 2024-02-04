@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -22,4 +27,31 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+}
+.header {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.container-navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.container-navigation button {
+  height: 1.5rem;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
 }
